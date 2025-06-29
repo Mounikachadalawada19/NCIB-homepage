@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NCIB - National Crime Investigation Bureau</title>
+  <title>Andhra Pradesh Consumer & Human Rights Protection Forum</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <style>
     * {
@@ -29,18 +29,27 @@
     }
     nav {
       background-color: #003366;
-      padding: 10px 20px;
+      padding: 10px 0;
+      display: flex;
+      justify-content: center;
     }
     nav ul {
       list-style: none;
       display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
+      justify-content: space-between;
+      width: 80%;
+      max-width: 1200px;
+    }
+    nav ul li {
+      flex: 1;
+      text-align: center;
     }
     nav ul li a {
       color: white;
       text-decoration: none;
       font-weight: 500;
+      display: block;
+      padding: 8px 0;
     }
     .hero {
       text-align: center;
@@ -59,8 +68,17 @@
       padding: 20px;
       background-color: white;
     }
+    .logo-bar .left {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
     .logo-bar img {
       height: 80px;
+    }
+    .logo-bar h1 {
+      font-size: 20px;
+      color: #333;
     }
     .logo-bar .right {
       display: flex;
@@ -83,7 +101,7 @@
 <body>
   <header>
     <div class="top-bar">
-      <span><strong>News & Updates:</strong> If contacted by an unauthorized person then NCIB headquarters will not be responsible.</span>
+      <span><strong>News & Updates:</strong> If contacted by an unauthorized person then headquarters will not be responsible.</span>
     </div>
     <div>
       <span>📞 +91 97925-80000</span>
@@ -91,9 +109,12 @@
   </header>
 
   <div class="logo-bar">
-    <img src="https://ncib.in/images/logo.png" alt="NCIB Logo">
+    <div class="left">
+      <img src="logo.jpg" alt="Forum Logo">
+      <h1>Andhra Pradesh Consumer & Human Rights Protection Forum</h1>
+    </div>
     <div class="right">
-      <button>Join NCIB</button>
+      <button>Join Forum</button>
       <input type="text" placeholder="Officer Verification">
       <button>Search</button>
     </div>
@@ -119,3 +140,4 @@
   </div>
 </body>
 </html>
+
